@@ -1,0 +1,23 @@
+body {
+  background-color: #f5f5f5; /* Ljus bakgrundsfärg */
+  font-family: Verdana, sans-serif; /* Ändra fonten till Verdana */
+  color: black; /* Svart textfärg */
+}
+
+article, footer {
+  background-color: #e0e0e0; /* Annan ljus bakgrundsfärg för article och footer */
+  margin: 10px; /* Lägg till marginal för att separera dem */
+}
+
+a {
+  text-decoration: none; /* Ta bort understreck från länkar */
+  color: #333; /* Mörkare färg för länkar */
+}
+
+a:hover {
+  text-decoration: underline; /* Visa understreck vid hover */
+}
+
+.container {
+  display: flex; /* Använd flexbox för att göra två spalter */
+}
